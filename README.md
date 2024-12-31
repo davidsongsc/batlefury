@@ -80,7 +80,9 @@ Criar um RPG de mesa inovador, onde os jogadores interpretam personagens persona
 Este projeto está sob a licença [MIT](LICENSE). Sinta-se à vontade para usá-lo, modificá-lo e distribuí-lo, desde que a atribuição seja mantida.
 
 ---
-
+## Imagens & Referencias
+Warrior-Free Animation set V1.3
+https://clembod.itch.io/warrior-free-animation-set
 ## Contato
 Se você tiver dúvidas ou sugestões, entre em contato:
 - **Autor**: [Seu Nome]
