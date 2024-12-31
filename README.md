@@ -1,94 +1,88 @@
-# batlefury
+# RPG de Mesa com IA - Beta
 
-# **Batalhas de IA - Jogo de Cartas**
+Bem-vindo ao projeto **RPG de Mesa com IA**! Este jogo utiliza um sistema dinâmico de atributos, habilidades e afinidades elementais, permitindo aos jogadores personalizar seus personagens e criar campanhas ou duelos estratégicos.
 
-## **Visão Geral**
-Batalhas de IA é um jogo de cartas dinâmico e competitivo onde os jogadores controlam inteligências artificiais (IAs) que duelam em uma arena. Cada IA possui habilidades únicas, e as estratégias são criadas a partir de cartas que representam a personalização e os poderes das suas unidades. O objetivo é derrotar as IAs adversárias utilizando combinações de cartas, habilidades e táticas inteligentes.
-
----
-
-## **Principais Recursos**
-
-- **Controle de IAs**: Cada jogador possui um conjunto de IAs com habilidades customizáveis.
-- **Cartas Estratégicas**: Use cartas para ativar habilidades, melhorar as IAs ou prejudicar o oponente.
-- **Batalhas na Arena**: Um campo de duelo dinâmico com feedback visual e efeitos especiais.
-- **Personalização Completa**: Configure sua equipe de IAs para atender à sua estratégia.
-- **Estética Futurista**: Design com tema de inteligência artificial e tecnologia de ponta.
+## Objetivo do Projeto
+Criar um RPG de mesa inovador, onde os jogadores interpretam personagens personalizados e interagem em um mundo com habilidades moldadas por inteligência artificial e escolhas estratégicas. O sistema foi projetado para campanhas narrativas e duelos 5x5 entre equipes.
 
 ---
 
-## **Paletas de Cores**
+## Funcionalidades Principais
 
-### **1. Área do Usuário**
-- **Ciano Neon (#00FFFF)**: Destaque para elementos interativos.
-- **Cinza Grafite (#2C2C2C)**: Fundo neutro.
-- **Branco Gelo (#E0FFFF)**: Textos e ícones.
-- **Verde Matrix (#00FF00)**: Indicação de sucesso ou status da IA.
+### 1. **Criação de Personagens**
+- Atributos primários: Força, Agilidade e Inteligência.
+- Distribuição inicial de pontos (10 pontos).
+- Progressão por nível, com técnicas personalizadas a partir do nível 40.
+- Afinidade elemental a partir do nível 60 (ex.: Fogo, Terra, Gelo).
 
-### **2. Área das Cartas**
-- **Roxo Violeta (#8A2BE2)**: Fundo ou bordas principais das cartas.
-- **Preto Espacial (#1C1C1C)**: Contraste.
-- **Dourado Digital (#FFC700)**: Detalhes de raridade.
-- **Azul Elétrico (#1E90FF)**: Movimentos especiais.
+### 2. **Sistema de Combate**
+- Turnos baseados em habilidades e atributos.
+- Combinações estratégicas de habilidades e elementos.
+- Manipulação avançada de aura para defesa e ataque.
 
-### **3. Área de Duelo**
-- **Preto Futurista (#121212)**: Fundo da arena.
-- **Vermelho Energia (#FF4500)**: Dano ou barras de energia.
-- **Ciano Brilhante (#00CED1)**: Habilidades defensivas.
-- **Amarelo Holográfico (#FFFF99)**: Indicadores de turno ou efeitos críticos.
+### 3. **Afinidades Elementais**
+- Elementos básicos e avançados disponíveis após o Teste Elemental.
+- Manipulação ou criação de elementos para aumentar a profundidade do jogo.
 
 ---
 
-## **Como Jogar**
+## Regras do Jogo
 
-1. **Escolha suas IAs:** Monte uma equipe com habilidades diferentes para maximizar sua estratégia.
-2. **Personalize suas Cartas:** Selecione cartas que melhor complementem as habilidades das suas IAs.
-3. **Inicie a Batalha:** Entre na arena e use suas cartas para ativar habilidades, defender ou atacar.
-4. **Planeje Estratégias:** Combine cartas e movimentos para superar o oponente.
-5. **Vença o Jogo:** Derrote todas as IAs adversárias para garantir a vitória.
+1. **Atributos Primários**:
+   - **Força (FOR)**: Determina dano físico, resistência e vitalidade.
+   - **Agilidade (AGI)**: Define velocidade, precisão e reflexos.
+   - **Inteligência (INT)**: Representa energia mágica, resistência mágica e manipulação de aura.
 
----
+2. **Habilidades Básicas**:
+   - Potência de Impacto, Investida, Sequência de Golpes, Manifestação de Aura, entre outras.
 
-## **Instalação e Execução**
+3. **Progressão**:
+   - A partir do nível 40, desenvolva técnicas personalizadas.
+   - No nível 60, realize o Teste Elemental para obter afinidade.
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-repositorio/batalhas-de-ia.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd batalhas-de-ia
-   ```
-3. Instale as dependências:
-   ```bash
-   npm install
-   ```
-4. Inicie o jogo:
-   ```bash
-   npm start
-   ```
+4. **Elementos**:
+   - Básicos: Fogo, Água, Terra, Ar, Relâmpago.
+   - Avançados: Magma, Vapor, Gelo, Metal, Plasma, entre outros.
 
 ---
 
-## **Contribuições**
+## Estrutura do Projeto
 
-1. Fork o repositório.
-2. Crie um branch para sua funcionalidade:
-   ```bash
-   git checkout -b minha-funcionalidade
-   ```
-3. Submeta um pull request com suas alterações.
+- **/docs**: Regras, manuais e guias do jogo.
+- **/src**: Código principal do sistema do RPG.
+- **/tests**: Simulações e testes de combate.
+- **/assets**: Materiais visuais e fichas de personagens.
 
 ---
 
-## **Equipe**
-- **Designer de Jogos**: [Nome do Designer]
-- **Desenvolvedor Frontend**: [Nome do Dev]
-- **Desenvolvedor Backend**: [Nome do Dev]
-- **Artista Gráfico**: [Nome do Artista]
+## Como Contribuir
+
+1. Faça um fork do repositório.
+2. Crie uma branch para sua feature ou correção: `git checkout -b feature/nome-da-feature`.
+3. Faça commit das alterações: `git commit -m "Descrição do commit"`.
+4. Envie para o repositório: `git push origin feature/nome-da-feature`.
+5. Crie um Pull Request explicando suas alterações.
 
 ---
 
-## **Licença**
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+## Roadmap do Beta
 
+- [x] Sistema de criação de personagens.
+- [x] Implementação de atributos e habilidades básicas.
+- [x] Progressão de níveis até o 60.
+- [ ] Testes de equilíbrio e balanceamento.
+- [ ] Adicionar suporte a elementos avançados.
+- [ ] Melhorar as interfaces de usuário e integração de IA.
+
+---
+
+## Licença
+Este projeto está sob a licença [MIT](LICENSE). Sinta-se à vontade para usá-lo, modificá-lo e distribuí-lo, desde que a atribuição seja mantida.
+
+---
+
+## Contato
+Se você tiver dúvidas ou sugestões, entre em contato:
+- **Autor**: [Seu Nome]
+- **E-mail**: [seu-email@email.com]
+- **GitHub**: [Seu Perfil GitHub]
